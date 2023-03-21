@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Roboto:wght@300;400;700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header.container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    padding-block: 1rem;
+    padding-top: 100px;
+    gap: 30px;
+}
+
+header img{
+    width: 200px;
+}
+
+header .name{
+    text-align: center;
+}
+
+.name h1, h4, p, h3{
+    font-family: 'Quicksand','Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+main.profil{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.profil p{
+    line-height: 1.5rem;
+    padding-top: 30px;
+}
+
+footer{
+    height: 400px;
+    align-items: center;
+    background-color: beige;
+    padding-block: 1rem;
+    padding-top: 100px;
+    gap: 30px;
+    text-align: center;
+}
+
+footer h3{
+    padding-bottom: 30px;
+}
+
+.sosmed{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.instagram img{
+    width: 100px;
+}
+
+.medium img{
+    width: 100px;
+}
